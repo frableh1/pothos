@@ -144,16 +144,23 @@ declare module 'astro:content' {
 } & { render(): Render[".mdoc"] };
 };
 "pages": {
-"hidden-page.mdoc": {
-	id: "hidden-page.mdoc";
-  slug: "hidden-page";
+"articles-and-resources.mdoc": {
+	id: "articles-and-resources.mdoc";
+  slug: "articles-and-resources";
   body: string;
   collection: "pages";
   data: InferEntrySchema<"pages">
 } & { render(): Render[".mdoc"] };
-"styles.mdoc": {
-	id: "styles.mdoc";
-  slug: "styles";
+"database.mdoc": {
+	id: "database.mdoc";
+  slug: "database";
+  body: string;
+  collection: "pages";
+  data: InferEntrySchema<"pages">
+} & { render(): Render[".mdoc"] };
+"hidden-page.mdoc": {
+	id: "hidden-page.mdoc";
+  slug: "hidden-page";
   body: string;
   collection: "pages";
   data: InferEntrySchema<"pages">

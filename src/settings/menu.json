@@ -3,8 +3,8 @@
   "position": {
     "discriminant": "top",
     "value": {
-      "u": "1712840379550",
-      "alwaysDropdown": false
+      "u": "1732040652196",
+      "alwaysDropdown": true
     }
   },
   "appearance": {
@@ -17,10 +17,10 @@
     "subItemIndent": "10px"
   },
   "colors": {
-    "backgroundColor": "#9cacff87",
+    "backgroundColor": "#9cacff00",
     "menuHoverColor": "#ffffff80",
-    "dropdownColor": "#0a0057ed",
-    "dropdownHoverColor": "#ffffff80"
+    "dropdownColor": "#262A0F",
+    "dropdownHoverColor": "#25290f82"
   },
   "typography": {
     "menuMain": {
@@ -29,7 +29,7 @@
       "fontStyle": "normal",
       "fontSize": "1.5rem",
       "lineHeight": 1,
-      "color": "#0a0057",
+      "color": "#01000a",
       "marginTop": "0.5rem",
       "marginBottom": "0.5rem"
     },
@@ -44,12 +44,12 @@
       "marginBottom": "4px"
     },
     "menuText": {
-      "fontFamily": "fontStack2",
+      "fontFamily": "fontStack1",
       "fontWeight": "400",
       "fontStyle": "normal",
-      "fontSize": "1.5rem",
+      "fontSize": "3rem",
       "lineHeight": 1,
-      "color": "#0a0057",
+      "color": "#01000a",
       "marginTop": "4px",
       "marginBottom": "4px"
     }

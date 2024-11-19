@@ -1,5 +1,5 @@
 {
-  "siteTitle": "Website",
+  "siteTitle": "pothos",
   "position": {
     "discriminant": "top",
     "value": {
@@ -24,7 +24,7 @@
   },
   "typography": {
     "menuMain": {
-      "fontFamily": "fontStack1",
+      "fontFamily": "fontStack2",
       "fontWeight": "400",
       "fontStyle": "normal",
       "fontSize": "1.5rem",
@@ -44,7 +44,7 @@
       "marginBottom": "4px"
     },
     "menuText": {
-      "fontFamily": "fontStack3",
+      "fontFamily": "fontStack2",
       "fontWeight": "400",
       "fontStyle": "normal",
       "fontSize": "1.5rem",

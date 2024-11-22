@@ -11,7 +11,7 @@
     "blurBehind": true
   },
   "sizes": {
-    "topBarHeight": "60px",
+    "topBarHeight": "70px",
     "topBarPadding": "1rem",
     "menuPadding": "1rem",
     "subItemIndent": "10px"

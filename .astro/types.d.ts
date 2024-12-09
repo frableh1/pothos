@@ -165,6 +165,13 @@ declare module 'astro:content' {
   collection: "pages";
   data: InferEntrySchema<"pages">
 } & { render(): Render[".mdoc"] };
+"the-benefits-of-houseplants-in-the-home.mdoc": {
+	id: "the-benefits-of-houseplants-in-the-home.mdoc";
+  slug: "the-benefits-of-houseplants-in-the-home";
+  body: string;
+  collection: "pages";
+  data: InferEntrySchema<"pages">
+} & { render(): Render[".mdoc"] };
 };
 "portfolioGroups": {
 };

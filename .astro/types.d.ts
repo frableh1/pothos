@@ -172,6 +172,13 @@ declare module 'astro:content' {
   collection: "pages";
   data: any
 } & { render(): Render[".mdoc"] };
+"pothos.mdoc": {
+	id: "pothos.mdoc";
+  slug: "pothos";
+  body: string;
+  collection: "pages";
+  data: any
+} & { render(): Render[".mdoc"] };
 "the-benefits-of-houseplants-in-the-home.mdoc": {
 	id: "the-benefits-of-houseplants-in-the-home.mdoc";
   slug: "the-benefits-of-houseplants-in-the-home";

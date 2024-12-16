@@ -149,42 +149,42 @@ declare module 'astro:content' {
   slug: "aloe-vera";
   body: string;
   collection: "pages";
-  data: any
+  data: InferEntrySchema<"pages">
 } & { render(): Render[".mdoc"] };
 "articles-and-resources.mdoc": {
 	id: "articles-and-resources.mdoc";
   slug: "articles-and-resources";
   body: string;
   collection: "pages";
-  data: any
+  data: InferEntrySchema<"pages">
 } & { render(): Render[".mdoc"] };
 "database.mdoc": {
 	id: "database.mdoc";
   slug: "database";
   body: string;
   collection: "pages";
-  data: any
+  data: InferEntrySchema<"pages">
 } & { render(): Render[".mdoc"] };
 "hidden-page.mdoc": {
 	id: "hidden-page.mdoc";
   slug: "hidden-page";
   body: string;
   collection: "pages";
-  data: any
+  data: InferEntrySchema<"pages">
 } & { render(): Render[".mdoc"] };
 "pothos.mdoc": {
 	id: "pothos.mdoc";
   slug: "pothos";
   body: string;
   collection: "pages";
-  data: any
+  data: InferEntrySchema<"pages">
 } & { render(): Render[".mdoc"] };
 "the-benefits-of-houseplants-in-the-home.mdoc": {
 	id: "the-benefits-of-houseplants-in-the-home.mdoc";
   slug: "the-benefits-of-houseplants-in-the-home";
   body: string;
   collection: "pages";
-  data: any
+  data: InferEntrySchema<"pages">
 } & { render(): Render[".mdoc"] };
 };
 "portfolioGroups": {
@@ -200,5 +200,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = never;
+	export type ContentConfig = typeof import("../src/content/config.js");
 }
